@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">RamalanCuaca</string>
+    <string name="minggu">minggu</string>
+    <string name="_17_derajat">17 Derajat</string>
 </resources>

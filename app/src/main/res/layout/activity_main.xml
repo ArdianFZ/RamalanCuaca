@@ -7,13 +7,54 @@
     android:layout_height="match_parent"
     tools:context="com.code.pali.ramalancuaca.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       android:background="@color/colorPrimary"
+       android:orientation="vertical"
+       android:padding="@dimen/padding_16">
+       <TextView
+
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_horizontal"
+           android:text="@string/minggu"
+           android:textSize="20sp"
+           android:textColor="#ffffff"/>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal"
+           android:weightSum="2">
+           <LinearLayout
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:gravity="center"
+               android:orientation="vertical">
+               <ImageView
+                   android:layout_width="@dimen/padding_64"
+                   android:layout_height="@dimen/padding_64"
+                   android:src="@mipmap/sun" />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Hujan rintik_rintik"
+                   android:textColor="#ffffff"/>
+
+           </LinearLayout>
+           <TextView
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:gravity="center"
+               android:text="@string/_17_derajat"
+               android:textColor="#ffffff"
+               android:textSize="21sp"/>
+
+
+       </LinearLayout>
+
+   </LinearLayout>
 
 </LinearLayout>
