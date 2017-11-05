@@ -14,7 +14,7 @@
        android:orientation="vertical"
        android:padding="@dimen/padding_16">
        <TextView
-
+           android:id="@+id/text_Minggu"
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:layout_gravity="center_horizontal"
@@ -33,10 +33,12 @@
                android:gravity="center"
                android:orientation="vertical">
                <ImageView
+                   android:id="@+id/ImageMatahari"
                    android:layout_width="@dimen/padding_64"
                    android:layout_height="@dimen/padding_64"
-                   android:src="@mipmap/sun" />
+                   android:src="@mipmap/ic_launcher" />
                <TextView
+                   android:id="@+id/textHujan"
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
                    android:text="Hujan rintik_rintik"
@@ -44,6 +46,7 @@
 
            </LinearLayout>
            <TextView
+               android:id="@+id/text17C"
                android:layout_width="0dp"
                android:layout_height="match_parent"
                android:layout_weight="1"
