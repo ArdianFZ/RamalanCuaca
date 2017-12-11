@@ -34,8 +34,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
-
-
+        
         hariYngDiTampilkan.setText("Mari MInggu");
         tampilanSuhu.setText("18C");
         tampilanSuhu.setText("Dingin Sangat");
