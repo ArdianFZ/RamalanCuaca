@@ -1,2 +1,2 @@
 # RamalanCuaca
-ini ramlan cuaca ulngan biar tmbah paham
+ini ramlan cuaca ulangan biar tambah paham
